@@ -210,10 +210,14 @@ img {
     transition: .3s ease-in;
 }
 
+
+.social-investing-statistics-header,
 .social-investing-header {
     margin-bottom: 50px;
 }
 
+
+.social-investing-statistics-header__title,
 .social-investing-copy-header__title,
 .social-investing-banner__title,
 .social-investing-header__title {
@@ -326,25 +330,15 @@ img {
     line-height: 1.1;
 }
 
-.social-investing-copy {
-    position: relative;
-}
-
-// .social-investing-copy-img {
-//     position: absolute;
-//     top: -348px;
-// }
-
-
-.social-investing-copy-img {
-    position: relative;
-
-}
-
+ 
 .social-investing-statistics-video-wrapper {
     width: 100%;
     max-width: 100%;
 
+}
+
+.social-investing-copy {
+background:   linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(249,250,255,1) 5%);
 }
 
 .social-investing-statistics-video-container {
@@ -409,17 +403,17 @@ img {
 }
 
 
-.social-investing-steps-one::before{
+.social-investing-steps-one::before {
     z-index: -1;
     content: "1";
 }
 
-.social-investing-steps-two::before{
+.social-investing-steps-two::before {
     z-index: -1;
     content: "2";
 }
 
-.social-investing-steps-tree::before{
+.social-investing-steps-tree::before {
     z-index: -1;
     content: "3";
 }
@@ -841,29 +835,18 @@ img {
         min-height: 270px;
     }
 
-    
+
     .social-investing-header-text {
         font-size: $font-size-13;
     }
 }
 
- 
+
 
 @media (max-width:991.98px) {
     .social-investing-header-text {
         font-size: $font-size-14;
     }
-
-    // .social-investing-copy-img {
-    //     width: 60%;
-    //     top: -110px;
-    //     left: 20%;
-    // }
-
-    .social-investing-copy-header {
-        margin-top: 310px;
-    }
-
 
     .social-investing-why-wrapper {
         max-width: 290px;
@@ -934,7 +917,10 @@ img {
         }
     }
 
-    .social-investing-banner-wrapper {border-radius: 0 0 30px 30px;}
+    .social-investing-banner-wrapper {
+        border-radius: 0 0 30px 30px;
+    }
+
     .social-investing-banner-wrapper::before {
         top: -50%;
         left: -40px;
@@ -1032,6 +1018,8 @@ img {
         font-size: 12px;
     }
 
+
+
     .social-investing-banner__header,
     .social-investing-hero__header,
     .social-investing-copy-header,
@@ -1067,7 +1055,7 @@ img {
         height: 550px;
         top: -17%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         border: 120px solid var(--light);
     }
 
@@ -1093,7 +1081,9 @@ img {
     }
 
 
-    .social-investing-steps__list {gap: 30px;}
+    .social-investing-steps__list {
+        gap: 30px;
+    }
 
     // .social-investing-copy-img {
     //     position: unset;
@@ -1107,13 +1097,31 @@ img {
         top: 33%;
         left: -20px;
     }
-    
+
+    .social-investing-statistics__title {
+        font-size: 40px;
+    }
+
+    .social-investing-statistics-header__title {
+        text-align: center;
+    }
+
+    .social-investing-statistics-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .social-investing-statistics__item {
+        max-width: 270px;
+        margin-inline: auto;
+    }
 }
 
 @media (max-width:375px) {
     .social-investing-steps__item::before {
-      
+
         top: 43%;
-     
+
     }
 }
