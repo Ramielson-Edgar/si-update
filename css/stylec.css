@@ -235,10 +235,16 @@ img {
 }
 
 .social-investing-award__item {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   align-items: center;
-  gap: 10px;
+}
+
+.social-investing-award__item:nth-child(2) {
+  order: 2;
+}
+
+.social-investing-award__img-container {
+  margin-right: 10px;
 }
 
 .social-investing-award__body-title {
@@ -861,6 +867,9 @@ img {
     transform: translate(-50%, -50%);
     border: 120px solid var(--light);
   }
+  .social-investing-award__item:nth-child(2) {
+    order: unset;
+  }
   .social-investing-award__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -883,12 +892,12 @@ img {
     font-size: 8px;
   }
   .social-investing-award-best-affiliate,
-.social-investing-award-faster,
-.social-investing-award-most {
+.social-investing-award-faster {
     width: 37px;
   }
-  .social-investing-award-best {
-    width: 45px;
+  .social-investing-award-most,
+.social-investing-award-best {
+    width: 66px;
   }
   .social-investing-award__body {
     padding-left: unset;
