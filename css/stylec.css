@@ -152,12 +152,18 @@ img {
   transition: 0.3s ease-in;
 }
 
+.social-investing-award-header,
+.social-investing-steps-header,
+.social-investing-diverse-header,
 .social-investing-why-header,
 .social-investing-statistics-header,
 .social-investing-header {
   margin-bottom: 50px;
 }
 
+.social-investing-award-header__title,
+.social-investing-steps-header__title,
+.social-investing-diverse-header__title,
 .social-investing-why-header__title,
 .social-investing-statistics-header__title,
 .social-investing-copy-header__title,
@@ -936,13 +942,6 @@ img {
   .social-investing-copy {
     padding: 50px 0 0 0;
   }
-  .social-investing-why-header__title,
-.social-investing-header__title {
-    max-width: 230px;
-  }
-  .social-investing-statistics-header__title {
-    max-width: 260px;
-  }
   .social-investing-statistics-header {
     margin: 0 auto;
   }
@@ -953,6 +952,21 @@ img {
   }
   .social-investing-statistics-header__title {
     max-width: 220px;
+    text-align: center;
+  }
+  .social-investing-why-header__title {
+    max-width: 180px;
+  }
+  .social-investing-diverse-header__title {
+    max-width: 180px;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .social-investing-award-header__title,
+.social-investing-steps-header__title {
+    max-width: 220px;
+    margin-inline: auto;
+    text-align: center;
   }
 }
 @media (max-width: 320px) {
