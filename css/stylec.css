@@ -917,7 +917,7 @@ img {
     left: -20px;
   }
   .social-investing-statistics__title {
-    font-size: 40px;
+    font-size: 20px;
   }
   .social-investing-statistics-header {
     display: flex;
@@ -937,7 +937,10 @@ img {
     padding: 50px 0 0 0;
   }
   .social-investing-why-header__title,
-.social-investing-statistics-header__title {
+.social-investing-header__title {
+    max-width: 230px;
+  }
+  .social-investing-statistics-header__title {
     max-width: 260px;
   }
   .social-investing-statistics-header {
@@ -947,6 +950,9 @@ img {
 @media (max-width: 375px) {
   .social-investing-steps__item::before {
     top: 43%;
+  }
+  .social-investing-statistics-header__title {
+    max-width: 220px;
   }
 }
 @media (max-width: 320px) {
