@@ -377,7 +377,7 @@ img {
     -webkit-text-stroke-width: 1px;
 }
 
- 
+
 .social-investing-steps-one::before {
     z-index: -1;
     content: "1";
@@ -1034,21 +1034,52 @@ img {
     }
 
 
-    .social-investing-award-best,
-    .social-investing-award-most {
-        width: 57px;
-    }
-
-    .social-investing-award__list {
-        max-width: 230px;
-        margin: 0 auto;
-    }
+ 
 
     .social-investing-award__list {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+        gap: 5px;
     }
+
+
+    .social-investing-award__body-title {
+        font-size: 10px;
+    }
+
+    .social-investing-award__company {
+        display: none;
+    }
+
+    .social-investing-award__body {
+        padding-left: 3px;
+    }
+
+    .social-investing-award__body-nomination {
+        margin-bottom: 0;
+        font-size: 8px;
+    }
+
+  
+     .social-investing-award-best-affiliate,
+    .social-investing-award-faster,
+    .social-investing-award-most { width: 37px;}
+
+    .social-investing-award-best {width: 45px;}
+ 
+
+
+    .social-investing-award__body {
+        padding-left: unset;
+        border: unset;
+    }
+
+
+    .social-investing-award__body-title {
+        line-height: 1.1;
+    }
+
 
     .social-investing-award {
         padding: 50px 0;
@@ -1078,11 +1109,6 @@ img {
         flex-direction: column;
         align-items: center;
     }
-
-    .social-investing-statistics__item {
-        max-width: 270px;
-        margin-inline: auto;
-    }
 }
 
 @media (max-width:375px) {
@@ -1091,4 +1117,19 @@ img {
         top: 43%;
 
     }
+}
+
+
+
+@media (max-width:320px) {
+
+    .social-investing-award__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 170px;
+        margin-inline: auto;
+    }
+
+
+
 }
