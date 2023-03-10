@@ -1189,7 +1189,35 @@ img {
         margin-inline: auto;
     }
 
+    .social-investing-award-best-affiliate,
+    .social-investing-award-faster {
+        width: 100%;
+    }
 
 
+ 
+    .social-investing-award-best  {
+        width: 66px;
+    }
+
+    .social-investing-award__body {
+        padding-left: 15px;
+        border-left: 2px solid var(--blue-500);
+    }
+
+
+    .social-investing-award__list {
+        max-width: 100%;
+    }
+
+    .social-investing-award__body-title {
+        font-size: $font-size-14;
+    }
+
+    .social-investing-award__body-nomination {
+        font-size: $font-size-13;
+    }
+
+    .social-investing-award__item:nth-child(2) {order: 3;}
 
 }
