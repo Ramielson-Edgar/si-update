@@ -106,8 +106,7 @@ img {
 
     @extend %base-transition;
 
-    &:hover,
-    &:focus {
+    &:hover {
         transform: translateY(-8px);
         box-shadow: none;
         outline: none;

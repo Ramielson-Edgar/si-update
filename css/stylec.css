@@ -80,7 +80,7 @@ img {
   outline: none;
   box-shadow: none;
 }
-.btn-base:hover, .btn-base:focus {
+.btn-base:hover {
   transform: translateY(-8px);
   box-shadow: none;
   outline: none;
