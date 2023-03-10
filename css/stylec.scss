@@ -1040,6 +1040,8 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: baseline;
+        max-width: 320px;
+        margin-inline: auto;
         gap: 5px;
     }
 
@@ -1108,6 +1110,10 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .social-investing-copy {
+        background: var(--blue-100);
     }
 }
 
