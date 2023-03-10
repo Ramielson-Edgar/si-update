@@ -834,7 +834,8 @@ img {
   }
   .social-investing-why-header,
 .social-investing-banner__header,
-.social-investing-hero__header .social-investing-header {
+.social-investing-hero__header,
+.social-investing-header {
     display: flex;
     justify-content: center;
     align-items: center;

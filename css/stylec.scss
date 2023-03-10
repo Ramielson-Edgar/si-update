@@ -1001,9 +1001,11 @@ img {
         font-size: 12px;
     }
 
+
     .social-investing-why-header,
     .social-investing-banner__header,
-    .social-investing-hero__header .social-investing-header {
+    .social-investing-hero__header,
+     .social-investing-header {
         @include center-flex('all');
         flex-direction: column;
         text-align: center;
