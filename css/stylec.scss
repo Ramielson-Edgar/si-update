@@ -1195,15 +1195,17 @@ img {
     }
 
 
- 
-    .social-investing-award-best  {
-        width: 66px;
+
+    .social-investing-award-most,
+    .social-investing-award-best {
+        width: 56px;
     }
 
     .social-investing-award__body {
         padding-left: 15px;
         border-left: 2px solid var(--blue-500);
     }
+
 
 
     .social-investing-award__list {
@@ -1218,6 +1220,30 @@ img {
         font-size: $font-size-13;
     }
 
-    .social-investing-award__item:nth-child(2) {order: 3;}
+    .social-investing-award__item:nth-child(2) {
+        order: 3;
+    }
 
+    .social-investing-award__body {
+        height: 100%;
+    }
+
+    .social-investing-award-best-affiliate,
+    .social-investing-award-faster {
+        width: 80%;
+    }
+
+    .social-investing-award__body-nomination {
+        margin-bottom: 32px;
+    }
+
+    .social-investing-award__company {
+        display: block;
+    }
+
+    .social-investing-award__list {
+        max-width: 220px;
+        margin-inline: auto;
+        gap: 20px;
+    }
 }
